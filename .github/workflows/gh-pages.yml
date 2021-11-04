@@ -17,8 +17,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install submodules
-        run: git submodule update --init --recursive --depth 1
+      - name: Install dependecies
+        run: |
+          git submodule update --init --recursive --depth 1
+          npm install postcss-cli
 
       - name: Build
         run: hugo --minify
