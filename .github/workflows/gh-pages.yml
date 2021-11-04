@@ -16,6 +16,8 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+
+      - name: Install submodules
         run: git submodule update --init --recursive --depth 1
 
       - name: Build
