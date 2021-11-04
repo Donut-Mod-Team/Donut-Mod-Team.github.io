@@ -16,6 +16,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+        run: git submodule update --init --recursive --depth 1
 
       - name: Build
         run: hugo --minify
