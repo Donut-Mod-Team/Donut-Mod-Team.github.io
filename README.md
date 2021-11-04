@@ -1,6 +1,6 @@
 # Docsy Example
 
-[Docsy][] is a [Hugo theme][] for technical documentation sites, providing easy
+[Docsy][] is [Hugo theme][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **Docsy Example Project** uses the
 Docsy theme and provides a skeleton documentation structure for you to use. You
 can clone/copy this project and edit it with your own content, or use it as an
