@@ -1,4 +1,4 @@
-# Docsy Example
+# Donut Mod pages
 
 [Docsy][] is [Hugo theme][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **Docsy Example Project** uses the
