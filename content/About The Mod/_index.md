@@ -1,7 +1,7 @@
 
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "About The Mod"
+linkTitle: "About The Mod"
 weight: 20
 menu:
   main:
