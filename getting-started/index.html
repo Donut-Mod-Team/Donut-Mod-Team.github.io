@@ -2,7 +2,7 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.89.2"><link rel=alternate type=text/html href=/getting-started/_print/>
+<meta name=generator content="Hugo 0.89.3"><link rel=alternate type=text/html href=/getting-started/_print/>
 <link rel=alternate type=application/rss+xml href=/getting-started/index.xml>
 <meta name=ROBOTS content="INDEX, FOLLOW">
 <link rel="shortcut icon" href=/favicons/favicon.ico>
@@ -131,19 +131,70 @@ To download the mod, there are two options. The first option, which is also the 
 <p>Once you have downloaded the release, you want to start up Spotfire. Now you have two options. Firstly, you can drag and drop the mod-file (the one you just downloaded) into the Spotfire canvas. The other option is to click on the three bars on the left side, which will open a pop-up menu. In this pop-up menu, click on the three dots in the top right, select "Browse for Visualiation" and find the mod-file. You should now see the visualization in your client! </p>
 <br>
 <p>2. Source Code Download</p>
-<p></p>
+<p>To download the source code, navigate to <a href=https://github.com/Donut-Mod-Team/donut-mod>GitHub</a> and click the code button to download the code using your preffered method. Next you need to install node.js, which is described on their website found <a href=https://nodejs.org/en/>here</a>. After you have downloaded the code and installed node.js, you want to navigate to the project code folder in two terminals, and run:
+<br>
+<br>
+1. npm start
+<br>
+2. npm run server </p>
+<p>
+Once you have executed these commands, your development server is up and running. In order to connect it to Spotfire®, there are a couple of steps we need to execute.
+</p>
+<p>
+Firstly, make sure Spotfire® is set to editing instead of viewing mode. Next, you want to click Tools > Development > Create visualization mod... In the canvas that just popped up, you want to click "Connect to project". Then click Development Server, enter the url that you got in your terminal when setting up the server, and connect. Now you should be able to see the mod in your local Spotfire®!
+</p>
 <br>
 <h2 id=settings-features>Settings and Features</h2>
 <p>
-<a href=http://localhost:1313/aboutus/>About Us</a> is the page where you can get to know us, the developers! Here you can see some pictures of us, as well as the primary roles we have been in charge of throughout the development of this mod. Are you curious to know more about us? Come say hi!
+A list of the features and settings currently available in the mod can be found here. A description of these features and settings can be found <a href=link-to-docs>here.</a>
 </p>
+<p>Features:</p>
+<ul>
+<li>Left Mouse and Ctrl-clicking subsets of data.</li>
+<li>Click-hold-drag selection for multiple subsets.</li>
+<li>Unselect by clicking the mod background (canvas).</li>
+<li>Tooltip with dynamic information on mouseOver.</li>
+<li>Dynamic sum of values as center text.</li>
+<li>Labels showing ratios on each sector.</li>
+<li>Red lines visualizing negative values.</li>
+<li>Dynamic visualization based on sector and donut size.</li>
+<li>Outlined hover-effect when hovering a sector.</li>
+<li>Centre text describing selected values and corresponding aggregations.</li>
+<li>Settings for adapting different visualization aspects of the mod.</li>
+</ul>
+<p>Settings:</p>
+<p>Show labels for:</p>
+<ul>
+<li>All</li>
+<li>Marked rows</li>
+<li>None</li>
+</ul>
+<p>Show in labels:</p>
+<ul>
+<li>Sector percentage</li>
+<li>Sector value</li>
+<li>Sector category</li>
+</ul>
+<p>Labels position:</p>
+<ul>
+<li>Inside donut</li>
+<li>Outside donut</li>
+</ul>
+<p>Sorting:</p>
+<ul>
+<li>Sort sectors by size</li>
+<li>Sort sectors ascending</li>
+<li>Sort sectors descendin</li>
+</ul>
+<p>Circle type:</p>
+<ul>
+<li>Visualize whole circle</li>
+<li>Visualize semi-circle</li>
+</ul>
 <br>
-<h2 id=tutorial-video>Tutorial Video!</h2>
+<h2 id=tutorial-video>Tutorial Video</h2>
 <br>
 <iframe width=560 height=315 src=https://www.youtube.com/embed/l3uO2lO9JDk title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p>
-To download the mod and see all former, and upcoming, releases, head over to the <a href=http://localhost:1313/download/>Download & Releases</a> page. Here you will find the information you need to get the Donut Mod all for yourself.
-</p>
 </div>
 </div>
 </div>
