@@ -1,4 +1,22 @@
+// Styles regarding the About Us page
+
 .btn-secondary{
     font-size: 30px;
     padding: 0.3em 1em;
+}
+
+.description-image{
+    margin: 1em;
+    text-align: center;
+}
+
+.name-p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.about-us-picture {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
 }
