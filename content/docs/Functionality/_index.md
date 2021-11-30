@@ -33,12 +33,27 @@ description: >
   <p> The center text available in the mod will give relevant information about the data that is currently selected on the chart. Either the whole set, as seen to the right, or one to several subsets, as seen in the two rightmost images. </p>
   
   <li>Labels showing ratios on each sector.</li>
-	<li>Red lines visualizing negative values.</li>
-	<li>Dynamic visualization based on sector and donut size.</li>
-	<li>Outlined hover-effect when hovering a sector.</li>
-	<li>Centre text describing selected values and corresponding aggregations.</li>
-	<li>Settings for adapting different visualization aspects of the mod.</li>
+  <img src="sector-labels.png" alt="Labels inside sectors.">
+  <p> The labels inside the sectors tell the users which percentage of the data set is present inside the subset. </p>
+  
+  <li>Red lines visualizing negative values.</li>
+  <img src="negative-values.png" alt="Negative values outlined.">
+  <p> On the outer part of a sector, the red line indicates that a value is negative rather than positive. This is to help the user navigate negative and positive values more easily. </p>
+  
+  <li>Dynamic visualization based on sector and donut size.</li>
+  <img src="dynamic-visualization.png" alt="Different mod and sector resizings.">
+  <p> Depending on the sizes of the sectors and the mod itself, different behaviours are expected within the Donut Chart. Some of these are the removal of labels when sectors are too small (middle) and the shortening of the center value name (right).</p>
+	
+  <li>Outlined hover-effect when hovering a sector.</li>
+  <img src="mouseover-tooltip.png" alt="MouseOver outline when hovering.">
+  <p> When hovering a sector, as shown in the tooltip subsection, there is an outline present around the sector that you are currently hovering, which indicates the current sector.</p>
+  
+  <li>Settings for adapting different visualization aspects of the mod.</li>
+  <img src="settings-menu.png" alt="Settings menu in the mod.">
+  <p> To change the way the mod is visualized, press the circled settings icon on the left, and a dropdown should appear of options that will change the look and placements of different aspects of your mod. Each of these settings are described underneath this section.</p>  
 </ul>
+<br>
+<br>
 
 <p>Settings:</p>
 <p>Show labels for:</p>
