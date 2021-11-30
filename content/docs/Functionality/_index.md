@@ -59,33 +59,71 @@ description: >
 <p>Show labels for:</p>
 <ul>
 	<li>All</li>
-	<li>Marked rows</li>
-	<li>None</li>
+  <img src="settings-all.png" alt="Show labels for: All">
+  <p> Selecting "Show labels for: All" will show labels for all sectors.</p>  
+  
+  <li>Marked rows</li>
+  <img src="settings-marked-rows.png" alt="Show labels for: Marked Rows">
+  <p> Selecting "Show labels for: Marked Rows" will show labels for all sectors that are marked, and none when no specific sector(s) have been marked.</p>
+	
+  <li>None</li>
+  <img src="settings-none.png" alt="Show labels for: None">
+  <p> Selecting "Show labels for: None" will display no labels for any sectors, wether they have been selected or not.</p>
 </ul>
 
 <p>Show in labels:</p>
 <ul>
 	<li>Sector percentage</li>
-	<li>Sector value</li>
-	<li>Sector category</li>
+  <img src="settings-all.png" alt="Show labels as a percentage.">
+  <p> Selecting "Show in labels: Sector Percentage" will display the labels as a percentage.</p>
+	
+  <li>Sector value</li>
+  <img src="settings-sector-value.png" alt="Show labels as a sector value.">
+  <p> Selecting "Show in labels: Sector Value" will display the labels as the value of the corresponding sector.</p>
+	
+  <li>Sector category</li>
+  <img src="settings-sector-category.png" alt="Show labels as the sector category.">
+  <p> Selecting "Show in labels: Sector Category" will display the labels as the category of the current sector.</p>
+  
+  <li>Multiple values</li>
+  <img src="settings-multiple-values.png" alt="Show multiple different sector options.">
+  <p> You can also select multiple different values when choosing how to display the sector values, for instance Sector Category and Sector Values at the same time, or any (or all) combinations of the settings in the following subsection.</p>
 </ul>
 
 <p>Labels position:</p>
 <ul>
 	<li>Inside donut</li>
-	<li>Outside donut</li>
+  <img src="settings-all.png" alt="Show labels inside the Donut.">
+  <p> Selecting "Labels position: Inside donut" will display the labels inside the Donut Chart.</p>
+  
+  <li>Outside donut</li>
+  <img src="settings-outside.png" alt="Show labels outside the Donut.">
+  <p> Selecting "Labels position: Outside donut" will display the labels outside of the Donut Chart.</p>
 </ul>
 
 <p>Sorting:</p>
 <ul>
 	<li>Sort sectors by size</li>
-	<li>Sort sectors ascending</li>
-	<li>Sort sectors descendin</li>
+  <img src="settings-unsorted.png" alt="Unsorted sectors.">
+  <p> Unselecting "Sorting: Sort sectors by size" will remove the sorting done by size on the sectors. It is important to note that this disables the following two settings, as well.</p>
+	
+  <li>Sort sectors ascending</li>
+  <img src="settings-ascending.png" alt="Sectors sorted in ascending order.">
+  <p> Selecting "Sorting: Sort sectors ascending" will sort the sectors in ascending order.</p>
+	
+  <li>Sort sectors descending</li>
+  <img src="settings-descending.png" alt="Sectors sorted in descending order.">
+  <p> Selecting "Sorting: Sort sectors descending" will sort the sectors in descending order.</p>
 </ul>
 
 <p>Circle type:</p>
 <ul>
 	<li>Visualize whole circle</li>
-	<li>Visualize semi-circle</li>
+  <img src="settings-all.png" alt="Donut Chart visualized as a whole circle.">
+  <p> Selecting "Circle type: Visualize whole circle" will visualize the Donut Chart as a whole circle. </li>
+
+  <li>Visualize semi-circle</li>
+  <img src="settings-semi-circle.png" alt="Donut Chart visualized as a semi-circle.">
+  <p> Selecting "Circle type: Visualize semi-circle" will visualize the Donut Chart as a semi-circle. </li>
 </ul>
 <br>
