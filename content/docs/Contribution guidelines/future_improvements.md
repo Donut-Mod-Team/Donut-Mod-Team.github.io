@@ -6,4 +6,8 @@ description: >
   Future improvements to the project.
 ---
 
-Are you wondering how you can contribute to the project? Look no further! If you have any ideas how to improve or add to the project as it currently is, this is the place for you.
+If you are looking to add to the project, or simply want to describe missing features, working with us is most easily done through GitHub.
+
+To discuss an issue, or something missing, adding a GitHub issue [here](https://github.com/Donut-Mod-Team/donut-mod/issues) will peak our interest, and we will get back to you as soon as possible.
+
+As for contributing to the project yourself, forking the repository and adding a pull request will allow us to review what you have done, and discuss it internally within the team.
