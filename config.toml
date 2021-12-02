@@ -21,7 +21,7 @@ contentDir = "content"
 tag = "tags"
 category = "categories"
 
-[params.taxonomy]
+[hide_params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
 taxonomyCloud = ["tags", "categories"] 
 
@@ -147,7 +147,7 @@ sidebar_search_disable = false
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
-[params.ui.feedback]
+[hide_params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
@@ -161,17 +161,17 @@ enable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-	name = "User mailing list"
-	url = "https://example.org/mail"
+[[hide_params.links.user]]
+	name = "Contact Us"
+	url = "https://github.com/Donut-Mod-Team/donut-mod/issues"
 	icon = "fa fa-envelope"
         desc = "Discussion and help from your fellow users"
-[[params.links.user]]
+[[hide_params.links.user]]
 	name ="Twitter"
 	url = "https://example.org/twitter"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
-[[params.links.user]]
+[[hide_params.links.user]]
 	name = "Stack Overflow"
 	url = "https://example.org/stack"
 	icon = "fab fa-stack-overflow"
@@ -179,17 +179,17 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/Donut-Mod-Team/donut-mod/"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
-[[params.links.developer]]
+[[hide_params.links.developer]]
 	name = "Slack"
 	url = "https://example.org/slack"
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
 [[params.links.developer]]
-	name = "Developer mailing list"
-	url = "https://example.org/mail"
+	name = "Contact Us"
+	url = "https://github.com/Donut-Mod-Team/donut-mod/issues"
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 
