@@ -9,27 +9,27 @@ menu:
 {{< blocks/section  color="white">}}
 <div class="container">
   <div class="row">
-  <div class="col description-image">
+  <div class="col-3 description-image">
     <img src="chrys small picture.JPG" alt="Picture of Chrysostomos">
     <p  class="name-p"> Chrysostomos Tsagkidis</p>
     <p> Development & CI/CD</p>
 
   </div>
 
-  <div class="col description-image"> 
+  <div class="col-3 description-image"> 
     <img src="clem small picture.JPG" alt="Picture of Clementine">
     <p  class="name-p"> Clementine Jensen</p>
     <p> Management & UX Design</p>
   </div>
 
-  <div class="col description-image">
+  <div class="col-3 description-image">
     <img src="Eemil small picture.JPG" alt="Picture of Eemil">
     <p  class="name-p"> Eemil Jeskanen</p>
     <p> Management & Development</p>
 
   </div>
 
-  <div class="col description-image">
+  <div class="col-3 description-image">
     <img src="krasen small picture.JPG" alt="Picture of Krasen">
     <p class="name-p"> Krasen Parvanov</p>
     <p> Development, Testing & CI/CD</p>
