@@ -4,7 +4,7 @@ menu:
   main:
     weight: 40
 ---
-{{< blocks/cover title="Ready to try it out?" image_anchor="top" height="75%">}}
+{{< blocks/cover title="Ready to try it out?" image_anchor="top" height="full">}}
 
 <h1 style="font-weight:bold;">Download the Donut Mod and try it for yourself!</h1>
 <br>
