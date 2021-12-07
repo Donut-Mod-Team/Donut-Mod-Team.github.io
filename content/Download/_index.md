@@ -9,7 +9,7 @@ menu:
 <h1 style="font-weight:bold;">Download the Donut Mod and try it for yourself!</h1>
 <br>
 <div class="mx-auto">
-	<a class="btn btn-lg btn-secondary mr-2 mb-4" href="https://github.com/Donut-Mod-Team/donut-mod/releases" target="_blank"">
+	<a class="btn btn-lg btn-danger mr-2 mb-4" href="https://github.com/Donut-Mod-Team/donut-mod/releases" target="_blank"">
 		Download <i class="fab fa-github ml-2 "></i>
 	</a>
 	<p class="lead mt-5"> </p>
