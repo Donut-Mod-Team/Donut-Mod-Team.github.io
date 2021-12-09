@@ -1,7 +1,7 @@
 ---
 title: "Functionality"
 linkTitle: "Functionality"
-weight: 1
+weight: 2
 description: >
   Functionality, settings and customization.
 ---

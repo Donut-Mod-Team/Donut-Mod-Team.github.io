@@ -1,7 +1,7 @@
 ---
 title: "License"
 linkTitle: "License"
-weight: 1
+weight: 4
 description: >
   Project license.
 ---

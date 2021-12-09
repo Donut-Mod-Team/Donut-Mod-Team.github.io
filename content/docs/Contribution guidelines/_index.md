@@ -1,7 +1,7 @@
 ---
 title: "For Developers"
 linkTitle: "For Developers"
-weight: 10
+weight: 3
 description: >
   How to contribute to the project
 ---
