@@ -1,0 +1,32 @@
+// Styles regarding the About Us page
+
+.btn-secondary{
+    font-size: 30px;
+    padding: 0.3em 1em;
+}
+
+.description-image{
+    //margin-left: 1.5em;
+    //margin-right: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+    //background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(230,230,230,1) 100%);
+    //background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(193,193,193,1) 100%);
+    //background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(255,255,255,1) 20%);
+}
+
+.name-p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.about-us-picture {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+}
+
+.about-us-description {
+    text-align: left;
+    margin-bottom: 2em;
+}

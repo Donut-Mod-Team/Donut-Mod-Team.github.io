@@ -2,3 +2,6 @@
 resources/
 node_modules/
 package-lock.json
+
+# Unsure if this is supposed to be in the .gitignore
+.hugo_build.lock

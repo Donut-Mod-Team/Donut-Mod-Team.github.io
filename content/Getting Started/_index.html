@@ -1,0 +1,141 @@
+---
+title: Getting Started
+linkTitle: Getting Started
+menu:
+  main:
+    weight: 10
+
+---
+
+
+{{< blocks/cover title="Getting Started" image_anchor="bottom" height="min" >}}
+
+<p>
+  A guide to getting started with the Donut Mod.
+</p>
+
+{{< /blocks/cover >}}
+
+{{< blocks/section  color="white">}}
+
+<div style="margin-right: 2em;">
+	<p style="font-size:1em;">Content:</p>
+	<ol>
+		<li style="font-size:1em;"><a href="#prerequisites">Prerequisites</a></li>
+		<li style="font-size:1em;"><a href="#how-to-download">How to Download</a></li>
+		<li style="font-size:1em;"><a href="#settings-features">Settings and Features</a></li>
+		<li style="font-size:1em;"><a href="#tutorial-video">Tutorial Video</a></li>
+	</ol>
+</div>
+
+<div class="col" style="overflow: hidden;">
+
+<div>
+<!-- TODO: FIX IMAGE RESOLUTION FOR SMALLER SCREENS, CURRENTLY OVERFLOWING. -->
+<img src="donut-mod-example.JPG" alt="Example of the Donut Chart" style="height:25em;width:45em; margin:2em;">
+</div>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<p>
+	To use the mod, a working instance of Tibco Spotfire is necessary. This could be either the desktop client <a href="https://www.tibco.com/products/tibco-spotfire">Tibco Spotfire® Analyst</a>, or the web client, TIBCO Spotfire® Business Author. To get Tibco Spotfire, you can move to their <a href="https://www.tibco.com/products/tibco-spotfire">home page</a> where you can start a trial or get started with a membership.
+</p>
+<br>
+
+<p>
+	If you wish to download the source code found on <a href="https://github.com/Donut-Mod-Team/donut-mod">GitHub</a>, you also need to have node.js installed on your machine in order use the mod. A description of how to do this, written by Tibco themselves, can be found <a href="https://tibcosoftware.github.io/spotfire-mods/docs/getting-started/">here</a>.
+</p>
+<!--<a class="btn btn-lg btn-secondary mr-2 mb-4" href="https://github.com/Donut-Mod-Team/donut-mod/releases">
+	Get Started!
+</a>-->
+<br>
+
+<h2 id="how-to-download">How do I download it?</h2>
+<p>
+	To download the mod, there are two options. The first option, which is also the easiest, is to download and use the release. The other option is to download the source code and run it on a development server. The second option is required if you wish to make changes to the mod.
+</p>
+<br>
+
+<p>1. Release Download</p>
+<p>To download the release, first head to the GitHub <a href="https://github.com/Donut-Mod-Team/donut-mod/releases">Release Page</a>. Here you will want to grab the latest release, which should have the highest vesion number, for instance 0.1.1.</p>
+<p>Once you have downloaded the release, you want to start up Spotfire. Now you have two options. Firstly, you can drag and drop the mod-file (the one you just downloaded) into the Spotfire canvas. The other option is to click on the three bars on the left side, which will open a pop-up menu. In this pop-up menu, click on the three dots in the top right, select "Browse for Visualiation" and find the mod-file. You should now see the visualization in your client! </p>
+<br>
+
+<p>2. Source Code Download</p>
+<p>To download the source code, navigate to <a href="https://github.com/Donut-Mod-Team/donut-mod">GitHub</a> and click the code button to download the code using your preffered method. Next you need to install node.js, which is described on their website found <a href="https://nodejs.org/en/">here</a>. After you have downloaded the code and installed node.js, you want to navigate to the project code folder in two terminals, and run:
+<br>
+<br>
+1. npm start
+<br>
+2. npm run server </p>
+
+<p>
+	Once you have executed these commands, your development server is up and running. In order to connect it to Spotfire®, there are a couple of steps we need to execute.
+</p>
+<p>
+	Firstly, make sure Spotfire® is set to editing instead of viewing mode. Next, you want to click Tools > Development > Create visualization mod... In the canvas that just popped up, you want to click "Connect to project". Then click Development Server, enter the url that you got in your terminal when setting up the server, and connect. Now you should be able to see the mod in your local Spotfire®!
+</p>
+<br>
+
+<h2 id="settings-features">Settings and Features</h2>
+
+<!-- TODO: IMPLEMENT THE LINK TO THE DOCS DESCRIBING THE FEATURES AND SETTINGS. -->
+<p>
+	A list of the features and settings currently available in the mod can be found below. A description of these features and settings can be found <a href="/docs/functionality">here.</a>
+</p>
+
+<p>Features:</p>
+<ul>
+	<li>Left Mouse and Ctrl-clicking subsets of data.</li>
+	<li>Click-hold-drag selection for multiple subsets.</li>
+	<li>Unselect by clicking the mod background (canvas).</li>
+	<li>Tooltip with dynamic information on mouseOver.</li>
+	<li>Dynamic sum of values as center text.</li>
+	<li>Labels showing ratios on each sector.</li>
+	<li>Red lines visualizing negative values.</li>
+	<li>Dynamic visualization based on sector and donut size.</li>
+	<li>Outlined hover-effect when hovering a sector.</li>
+	<li>Settings for adapting different visualization aspects of the mod.</li>
+</ul>
+
+<p>Settings:</p>
+<p>Show labels for:</p>
+<ul>
+	<li>All</li>
+	<li>Marked rows</li>
+	<li>None</li>
+</ul>
+
+<p>Show in labels:</p>
+<ul>
+	<li>Sector percentage</li>
+	<li>Sector value</li>
+	<li>Sector category</li>
+</ul>
+
+<p>Labels position:</p>
+<ul>
+	<li>Inside donut</li>
+	<li>Outside donut</li>
+</ul>
+
+<p>Sorting:</p>
+<ul>
+	<li>Sort sectors by size</li>
+	<li>Sort sectors ascending</li>
+	<li>Sort sectors descending</li>
+</ul>
+
+<p>Circle type:</p>
+<ul>
+	<li>Visualize whole circle</li>
+	<li>Visualize semi-circle</li>
+</ul>
+<br>
+
+<h2 id="tutorial-video">Tutorial Video</h2>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l3uO2lO9JDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+{{< /blocks/section >}}
